@@ -2,5 +2,5 @@ Login & Signup Material Design
 ------------------------------
 
 Demo: 
- http://thinkphp.ro/apps/material-design/login-signup/login.html
- http://thinkphp.ro/apps/material-design/login-signup/signup.html
+ 1.http://thinkphp.ro/apps/material-design/login-signup/login.html 
+ 2.http://thinkphp.ro/apps/material-design/login-signup/signup.html
