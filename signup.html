@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Sign Up</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="http://djangodo.herokuapp.com/static/css/libs.min.8063f6510aa0.css" rel="stylesheet" type="text/css" />
+  <link href="http://djangodo.herokuapp.com/static/css/custom.min.7a5bfffa86c2.css" rel="stylesheet" type="text/css" />
+  
+  
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col s12 m6 offset-m3">
+      <div class="card white darken-1">
+        <div class="card-content">
+          <span class="card-title">Sign Up</span>
+
+          <form id="registration_form" action="#">
+            <input type='hidden' name='csrfmiddlewaretoken' value='T7zOC6G3cLDOIlUZ0RSsgLCtbC28oBdB' />
+
+            
+
+            
+              <div class="input-field">
+                <label for="id_username">Username:</label> <input id="id_username" maxlength="30" name="username" type="text" />
+                
+
+                
+              </div>
+            
+              <div class="input-field">
+                <label for="id_email">Email:</label> <input id="id_email" name="email" type="email" />
+                
+
+                
+              </div>
+            
+              <div class="input-field">
+                <label for="id_password1">Password:</label> <input id="id_password1" name="password1" type="password" />
+                
+
+                
+              </div>
+            
+              <div class="input-field">
+                <label for="id_password2">Password confirmation:</label> <input id="id_password2" name="password2" type="password" />
+                
+
+                
+              </div>
+            
+          </form>
+          <br />
+          <p class="help">Already registered? <a href="/accounts/login/">Log In</a></p>
+        </div>
+
+        <div class="card-action">
+          <button class="btn orange waves-effect waves-light" form="registration_form" type="submit" name="action">Sign Up<i class="material-icons right">send</i></button>
+          <input type="hidden" name="next" value="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script type="text/javascript" src="http://djangodo.herokuapp.com/static/js/libs_js.min.3190b588d834.js" charset="utf-8"></script>
+  <script type="text/javascript" src="http://djangodo.herokuapp.com/static/js/init_js.min.9d5648fe25d1.js" charset="utf-8"></script>
+  <script src="https://use.fontawesome.com/20df5a4fda.js"></script>
+
+
+  </body>
+</html>
